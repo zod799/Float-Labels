@@ -1,34 +1,3 @@
-/* var formFunctions = {
-    init: function(){
-        this.placeholder();
-    },
-    placeholder: function(elem){
-        $('body').on('focusin', '.float-labels input', function(e){
-            if(!$(this).attr('readonly') && $(this).attr('type') != "radio"){
-                formFunctions.addFloatLabel($(this));
-            }
-        });
-        $('body').on('focusout', '.float-labels input', function(e){
-            if(!$(this).val()){
-                formFunctions.removeFloatLabel($(this));
-            }
-        });
-        $('body').on('change', '.float-labels input', function(e){
-            if($(this).attr('type') != "radio"){
-                formFunctions.addFloatLabel($(this));
-            }
-        });
-    },
-    addFloatLabel: function (elem) {
-        elem.parent().addClass('f-label-active');
-    },
-    removeFloatLabel: function (elem) {
-        elem.parent().removeClass('f-label-active');
-    }
-}
-formFunctions.init(); */
-
-
 
 /* =============== Float Labels for Angular ======================  
    ADD 'float-labels' class to the form that needs float labels
