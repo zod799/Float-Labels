@@ -1,0 +1,47 @@
+/*=========================================================================
+=========================== BASE FORM STYLES ==============================
+=========================================================================*/
+
+#main select, #main input[type="text"], #main input[type="email"], #main input[type="date"], #main input[type="tel"], #main input[type="password"], #main textarea, #hpfFrame .mainTable input {
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 1px solid #dfdfdf;
+  padding: 20px 0 10px 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  color: #666;
+  width: 20%;
+}
+
+/* FLOAT LABELS */
+#main form label {
+    color: #77787b;
+    font-size: 12px;
+    font-weight: normal;
+}
+#main .float-labels label {
+    color:#acacac;
+    display: none;
+    font-size: 16px;
+    position: absolute;
+    top: 19px;
+    left: 16px;
+}
+
+.no-placeholder #main form label {display: block}
+#main form .f-label-active label, #main form .f-label-on label{
+    top: 19px;
+    font-size: 12px;
+    margin: 0;
+    display: block
+}
+#main form .label-on label{
+    display: block
+}
+
+#main input:focus::-webkit-input-placeholder { color:transparent; }
+#main input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+#main input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+#main input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+
