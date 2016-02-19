@@ -1,5 +1,5 @@
 # Float-Labels
-Form float labels using angular directives, es2015, and jquery. This was the first draft of code that I used for a Project at Cord Blood Registry.
+Form float labels using angular directives, es2015, and jquery. This was the first final draft of code that I used for a Project at Cord Blood Registry.
 
 The babel folder and file is the uncompiled es2015 javascript code. Just used 'Let'
 
